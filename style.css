@@ -5,61 +5,77 @@ body {
     background-size: cover;
 }
 
+
 ul {
     list-style-type: none;
     display:table;
     margin: 0;
-    padding: 10;
-    width: 10%;
-    background-color: #f1f1f1;
-    height: 20%; 
-    position: fixed; 
+    width: 15%;
+    background-color: transparent;
+    height: 20%;  
     overflow: auto;
     text-decoration-color: darkslateblue;
-    padding-right: 0%;
-    padding-left:0%;
-    padding-bottom:0%;
+    padding-left:5%;
+    padding-top:5%;
 }
 
 li {
     text-align: left;
     border-right: 3px solid #000;
-    border-bottom: 3px solid #000;
-    font-size: larger;
+    border-bottom: 3px solid= #000;
+    font-size: 20pt;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     color: rgb(61, 57, 57)
 }
 
-h1 {
-    font-size: 40pt;
-}
 h2 {
+    font-size: 40pt;
+    font-weight: bold;
+}
+h3 {
     font-size: 20pt;
+    font-weight: normal;
 }   
+h4 {
+    font-size: 30pt;
+    text-align: center;
+}
 .a {
     background-color: transparent;
     border-right: black thick double;
-    margin-top: 20%;
-    margin-left: 15%;
-    padding-right:20px;
+    margin-left: 10%;
+    padding-right:50px;
     float: left;
     text-align:center;
+    width: 20%;
+
 }
 
 .s {
     background-color: transparent;
-    margin-top: 10%;
-    margin-left: 10%;
+    margin-top: 10px;
+    padding-top: 10px;
     float: center;
     text-align:center;
-    height: 25%;  
+    height: 30px;
 }
+
 .m {
     background-color: transparent;
     border-left: black thick double;
-    margin-left: 20%;
-    padding: 20px;;
+    margin-right: 10%;
+    padding-left: 50px;;
     float: right;
     text-align:center;
+    width: 20%;
+}
+
+.quote {
+    font-family: cursive;
+    font-size: 50pt;
+    text-align: center;
+    width: 90%;
+    margin-top: 275px;
+
 }
